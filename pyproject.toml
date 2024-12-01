@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lora"
+description = "Quantification of the huggyllama/llama-7b model"
+authors = ["Gurtsiev Richard"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+datasets = "^2.20.0"
+transformers = "^4.46.0"
+huggingface_hub = "^0.26.2"
+peft = "^0.13.2"
+datasets = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
